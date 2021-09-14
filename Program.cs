@@ -10,6 +10,16 @@ namespace CSCalculator
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello how're you?");
+            Console.WriteLine("Hello how're you?");
+            Console.WriteLine("Hello how're you?");
+            Console.WriteLine("Hello how're you?");
+            Console.WriteLine("Hello how're you?");
+            Console.WriteLine("Hello how're you?");
+            Console.WriteLine("Hello how're you?");
+            Console.WriteLine("Hello how're you?");
+
+            Console.ReadLine();
         }
     }
 }

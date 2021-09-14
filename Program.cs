@@ -10,8 +10,8 @@ namespace CSCalculator
     {
         static void Main(string[] args)
         {
-            int num1 = 0;
-            int num2 = 0;
+            decimal num1 = 0;
+            decimal num2 = 0;
 
             Console.WriteLine("Console Calculator in C#\r");
             Console.WriteLine("------------------------\n");
@@ -43,6 +43,11 @@ namespace CSCalculator
                     Console.WriteLine($"Your result: {num1} * {num2} = " + (num1 * num2));
             break;
                             case "d":
+                    while (num2 == 0)
+                    {
+                        Console.WriteLine("Enter a non-zero divisor: ");
+                        num2 = Convert.ToInt32(Console.ReadLine());
+                    }
                     Console.WriteLine($"Your result: {num1} / {num2} = " + (num1 / num2));
                     break;
             }
